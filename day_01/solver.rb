@@ -17,7 +17,7 @@ class Solver
 			hash[:prev] = c.to_i
 		end
 
-		return(hash[:sum])
+		return hash[:sum]
 	end
 end
 
